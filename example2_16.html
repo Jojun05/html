@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>기본 구조를 가진표</h3>
+    <hr>
+    <table border="1">
+        <caption>1학기 성적</caption>
+        <header>
+            <tr>
+                <th>이름</th>
+                <th>HTML</th>
+                <th>CSS</th>
+            </tr>
+        </header>
+        <nav>
+            <tr>
+                <td>황기태</td>
+                <td>80</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>이재문</td>
+                <td>95</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>이병은</td>
+                <td>40</td>
+                <td>61</td>
+            </tr>
+        </nav>
+        <footer>
+            <tr>
+                <th>합</th>
+                <th>225</th>
+                <th>230</th>
+            </tr>
+        </footer>
+    </table>
+    <hr>
+    <table border="1">
+        <tr>
+            <td rowspan="5">사진넣기</td>
+            <th colspan="5">이력서</th>
+        </tr>
+        <tr>
+            <th rowspan="2">성명</th>
+            <td rowspan="2">홍길동</td>
+            <th colspan="2">주민등록</th>
+        </tr>
+        <tr>
+            <td colspan="2">050702-1234567</td>
+        </tr>
+        <tr>
+            <th rowspan="2">생년월일</th>
+            <td rowspan="2">2024년07월02일</td>
+            <th colspan="2">연락처</th>
+        </tr>
+        <tr>
+            <td colspan="2">010-4101-1491</td>
+        </tr>
+        <tr>
+            <th colspan="1">주소</th>
+            <td colspan="4">경기도 광명시@@@@</td>
+        </tr>
+        <tr>
+            <th>호적관계</th>
+            <td>호주와의 관계</td>
+            <td>아버지</td>
+            <th>호주성명</th>
+            <td>홍길동</td>
+        </tr>
+    </table>
+</body>
+
+</html>
